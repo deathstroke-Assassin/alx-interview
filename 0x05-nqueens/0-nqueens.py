@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Nqueens'''
+""" N queens """
 import sys
 
 
@@ -16,6 +16,7 @@ if int(sys.argv[1]) < 4:
     exit(1)
 
 n = int(sys.argv[1])
+
 
 def queens(n, i=0, a=[], b=[], c=[]):
     """ find possible positions """
